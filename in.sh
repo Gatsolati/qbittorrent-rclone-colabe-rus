@@ -1,4 +1,3 @@
-cat << 'EOF' > /opt/install.sh
 #!/bin/sh
 
 if [ "$LOGNAME" != "root" ]; then
@@ -90,4 +89,3 @@ if [ -f "$SCRIPT" ]; then
 fi
 
 echo "Setup complete."
-EOF
